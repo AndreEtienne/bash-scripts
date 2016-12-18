@@ -3,7 +3,7 @@ if ! [ -x "$(command -v git)" ]; then
   echo 'Please install git '
   exit 1
   else
-  echo 'git is installed'
+  echo 'git is installed' 
 fi
 if ! [ -x "$(command -v npm)" ]; then
   echo 'Please install npm '
